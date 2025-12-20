@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Penjelajahan Garut — Kisah Juragan & Para Penjelajah Rasa</title>
+  <meta name="description" content="Panduan resmi: cara main 10 detik, peta 7 rumah Juragan, kalender aktivasi, hadiah, FAQ, dan form pendaftaran." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Font sederhana, tetap cepat -->
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Kembali ke atas">
+        <span class="brand-mark" aria-hidden="true">🧭</span>
+        <span class="brand-text">
+          <strong>Penjelajah Rasa</strong>
+          <span class="brand-sub">Game Penjelajahan Garut</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav-toggle-lines" aria-hidden="true"></span>
+          <span class="sr-only">Buka menu</span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#cara-main">Cara Main</a>
+          <a href="#rumah">7 Rumah</a>
+          <a href="#kalender">Kalender</a>
+          <a href="#hadiah">Hadiah</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-primary" href="#daftar">Daftar / Submit</a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Mobile sticky quick nav -->
+    <div class="quickbar" aria-label="Navigasi cepat">
+      <a href="#cara-main">Cara</a>
+      <a href="#rumah">Peta</a>
+      <a href="#kalender">Kalender</a>
+      <a href="#daftar">Form</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="badge">
+            <span class="badge-dot" aria-hidden="true"></span>
+            22 Des 2025 – 22 Jan 2026 • Ekosistem ANP Wisata Rasa
+          </p>
+
+          <h1>
+            Kisah Legenda Juragan &<br />
+            Para Penjelajah Rasa
+          </h1>
+
+          <p class="lead">
+            Jelajahi <strong>7 Rumah Juragan</strong>, kumpulkan stempel dari setiap rumah, dan submit kartu penuh untuk ikut undian hadiah.
+            Halaman ini adalah panduan resmi agar kamu bisa ikut tanpa bingung.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#cara-main">Mulai: Cara Main 10 Detik</a>
+            <a class="btn btn-ghost" href="#rumah">Lihat Peta 7 Rumah</a>
+          </div>
+
+          <div class="hero-mini">
+            <div class="mini-card">
+              <div class="mini-icon" aria-hidden="true">🎟️</div>
+              <div>
+                <strong>Daftar</strong>
+                <p>Rp10.000 → Kartu Jelajah + gelang</p>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-icon" aria-hidden="true">🥘</div>
+              <div>
+                <strong>Paket Jamuan</strong>
+                <p>Beli paket di tiap rumah → dapat stempel</p>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-icon" aria-hidden="true">🏁</div>
+              <div>
+                <strong>Submit</strong>
+                <p>7 stempel lengkap → submit → undian</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="ticket">
+            <div class="ticket-top">
+              <span class="ticket-title">Kartu Jelajah</span>
+              <span class="ticket-stamp">STEMPEL</span>
+            </div>
+            <div class="ticket-body">
+              <div class="ticket-row">
+                <span class="chip">7 Rumah</span>
+                <span class="chip">1 Bulan</span>
+                <span class="chip">1 Kisah</span>
+              </div>
+              <div class="stamp-grid">
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/balong.svg" alt="Balong">
+                </span>
+
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/restorasa.svg" alt="Restorasa">
+                </span>
+
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/wacana.svg" alt="Wacana">
+                </span>
+
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/popondok.svg" alt="Popondok">
+                </span>
+
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/barbedek.svg" alt="Barbedek">
+                </span>
+
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/kangroti.svg" alt="Kangroti">
+                </span>
+
+                <span class="stamp is-filled">
+                  <img class="stamp-logo" src="assets/img/brand/popotoan.svg" alt="Popotoan">
+                </span>
+
+                
+                
+              </div>
+
+              <p class="ticket-note">
+                Mulai dari rumah mana pun. Yang penting: <strong>paket jamuan</strong> dulu, baru stempel.
+              </p>
+            </div>
+            <div class="ticket-bottom">
+              <span class="small">Panduan: scroll ke “Cara Main”.</span>
+              <span class="small">#PenjelajahRasa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cara Main -->
+    <section class="section" id="cara-main">
+      <div class="container">
+        <div class="section-head">
+          <h2>Cara Main 10 Detik</h2>
+          <p>Supaya kamu bisa ikut tanpa tanya-tanya dulu.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step-card">
+            <div class="step-num">1</div>
+            <h3>Daftar</h3>
+            <p>Bayar <strong>Rp10.000</strong> → dapat <strong>Kartu Jelajah + gelang</strong>.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-num">2</div>
+            <h3>Pilih Rumah</h3>
+            <p>Mulai dari <strong>rumah mana pun</strong> (lihat peta di bawah).</p>
+          </article>
+          <article class="step-card">
+            <div class="step-num">3</div>
+            <h3>Beli Paket</h3>
+            <p>Beli <strong>Paket Jamuan Juragan</strong> di rumah itu.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-num">4</div>
+            <h3>Stempel & Submit</h3>
+            <p>Dapat stempel. Lengkapi <strong>7 stempel</strong> → submit kartu → ikut undian.</p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <div class="callout-icon" aria-hidden="true">✅</div>
+          <div class="callout-body">
+            <strong>Catatan penting:</strong>
+            <p>Stempel dianggap sah jika kamu membeli Paket Jamuan di rumah tersebut (1 rumah = 1 stempel).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 Rumah -->
+    <section class="section alt" id="rumah">
+      <div class="container">
+        <div class="section-head">
+          <h2>7 Rumah Juragan</h2>
+          <p>Pilih mau mulai dari mana. Klik “Arahkan” untuk buka Google Maps.</p>
+        </div>
+
+        <div class="house-grid" id="houseGrid" aria-live="polite">
+          <!-- Di-render oleh JS -->
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="route-box">
+          <h3>Butuh rute cepat?</h3>
+          <p>Pilih gaya perjalanan, kami kasih rekomendasi urutan rumah (tanpa bikin kamu pusing).</p>
+
+          <div class="route-actions">
+            <button class="btn btn-soft" data-route="dekat">Rute Terdekat</button>
+            <button class="btn btn-soft" data-route="keluarga">Rute Keluarga</button>
+            <button class="btn btn-soft" data-route="malam">Rute Malam</button>
+          </div>
+
+          <div class="route-output" id="routeOutput" role="status" aria-live="polite">
+            <p class="muted">Pilih salah satu rute di atas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kalender -->
+    <section class="section" id="kalender">
+      <div class="container">
+        <div class="section-head">
+          <h2>Kalender Aktivasi Mingguan</h2>
+          <p>Alasan tambahan untuk datang (biar perjalanan kamu makin seru).</p>
+        </div>
+
+        <div class="tabs" aria-label="Kalender Mingguan">
+          <div class="tab-list" role="tablist">
+            <button class="tab is-active" role="tab" aria-selected="true" data-week="1">Week 1</button>
+            <button class="tab" role="tab" aria-selected="false" data-week="2">Week 2</button>
+            <button class="tab" role="tab" aria-selected="false" data-week="3">Week 3</button>
+            <button class="tab" role="tab" aria-selected="false" data-week="4">Week 4</button>
+          </div>
+
+          <div class="tab-panels">
+            <div class="panel is-active" role="tabpanel" data-week-panel="1">
+              <div class="panel-card">
+                <h3>Week 1 — Pembukaan Penjelajahan</h3>
+                <p class="muted">Mulai perjalananmu. Ambil kartu, pakai gelang, dan tentukan rumah pertama.</p>
+                <ul class="bullets" id="week1"></ul>
+              </div>
+            </div>
+
+            <div class="panel" role="tabpanel" data-week-panel="2">
+              <div class="panel-card">
+                <h3>Week 2 — Balong + Wacana</h3>
+                <p class="muted">Momen hangat: musik, cerita, dan suasana yang bikin betah.</p>
+                <ul class="bullets" id="week2"></ul>
+              </div>
+            </div>
+
+            <div class="panel" role="tabpanel" data-week-panel="3">
+              <div class="panel-card">
+                <h3>Week 3 — Barbedek + Kang Roti</h3>
+                <p class="muted">Asap & wangi roti: pas untuk ajak teman (dan nambah stempel).</p>
+                <ul class="bullets" id="week3"></ul>
+              </div>
+            </div>
+
+            <div class="panel" role="tabpanel" data-week-panel="4">
+              <div class="panel-card">
+                <h3>Week 4 — Popondok + Puncak Perjalanan</h3>
+                <p class="muted">Minggu puncak: selesaikan 7 rumah, submit kartu, dan ikut undian.</p>
+                <ul class="bullets" id="week4"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout subtle">
+          <div class="callout-icon" aria-hidden="true">📌</div>
+          <div class="callout-body">
+            <strong>Tips:</strong>
+            <p>Kalau kamu cuma sempat sedikit, targetkan dulu 2–3 rumah. Kalau sudah nyaman, lanjut sampai lengkap.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hadiah -->
+    <section class="section alt" id="hadiah">
+      <div class="container">
+        <div class="section-head">
+          <h2>Hadiah</h2>
+          <p>Untuk yang menuntaskan perjalanan (dan untuk yang tetap ikut meramaikan).</p>
+        </div>
+
+        <div class="prize-grid">
+          <article class="prize-card">
+            <h3>Hadiah Utama</h3>
+            <ul class="bullets">
+              <li>🎁 iPhone (sesuai ketentuan panitia)</li>
+              <li>🍽️ Paket Jamuan Besar</li>
+              <li>🏕️ Menginap 2D1N (sesuai ketersediaan)</li>
+            </ul>
+            <p class="muted small">Hadiah final mengikuti pengumuman resmi panitia.</p>
+          </article>
+
+          <article class="prize-card">
+            <h3>Hadiah Lainnya</h3>
+            <ul class="bullets">
+              <li>Hampers / Merchandise</li>
+              <li>Voucher belanja</li>
+              <li>Perlengkapan makan / item tematik</li>
+            </ul>
+            <p class="muted small">Tersedia untuk kategori tertentu sesuai mekanisme event.</p>
+          </article>
+
+          <article class="prize-card">
+            <h3>Syarat Submit</h3>
+            <ul class="bullets">
+              <li>Kartu memiliki <strong>7 stempel</strong> dari 7 rumah</li>
+              <li>Nama & kontak jelas</li>
+              <li>Submit via titik submit yang ditentukan panitia</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <h2>FAQ (Yang Paling Sering Ditanyain)</h2>
+          <p>Jawaban cepat biar kamu nggak kehilangan momen.</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <details class="acc-item">
+            <summary>Mulai harus dari rumah mana?</summary>
+            <div class="acc-body">Bebas. Kamu bisa mulai dari rumah mana pun. Yang penting: beli Paket Jamuan dulu, lalu minta stempel.</div>
+          </details>
+
+          <details class="acc-item">
+            <summary>Kalau kartu hilang gimana?</summary>
+            <div class="acc-body">Ikuti kebijakan panitia. Umumnya kartu fisik adalah bukti utama, jadi simpan baik-baik. Kamu bisa tetap daftar di website untuk catatan kontak, tapi stempel tetap mengacu pada kartu fisik.</div>
+          </details>
+
+          <details class="acc-item">
+            <summary>Bisa minta stempel tanpa beli paket?</summary>
+            <div class="acc-body">Tidak. Stempel sah hanya jika kamu membeli Paket Jamuan Juragan di rumah tersebut.</div>
+          </details>
+
+          <details class="acc-item">
+            <summary>Submit kartu penuh di mana?</summary>
+            <div class="acc-body">Di titik submit yang ditentukan panitia (akan diumumkan). Kamu juga bisa isi form “Submit Kartu Penuh” di bawah agar data kamu tercatat.</div>
+          </details>
+
+          <details class="acc-item">
+            <summary>Kalau Paket Jamuan di rumah itu habis?</summary>
+            <div class="acc-body">Tanya crew untuk opsi pengganti/alternatif sesuai kebijakan rumah tersebut. Stempel hanya diberikan setelah transaksi Paket Jamuan (atau substitusi resmi).</div>
+          </details>
+
+          <details class="acc-item">
+            <summary>Pengumuman pemenang di mana?</summary>
+            <div class="acc-body">Di kanal resmi panitia (IG/website). Pastikan kontak yang kamu tulis benar.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section class="section alt" id="daftar">
+      <div class="container">
+        <div class="section-head">
+          <h2>Daftar / Submit Kartu</h2>
+          <p>Form ini akan masuk ke Google Sheet kamu (sinkron via Apps Script). Pilih tipe pengiriman.</p>
+        </div>
+
+        <div class="form-grid">
+          <form class="card form-card" id="journeyForm">
+            <div class="form-row">
+              <label for="type">Tipe</label>
+              <select id="type" name="type" required>
+                <option value="DAFTAR">Daftar Penjelajah (ambil kartu di lokasi)</option>
+                <option value="SUBMIT_7_STEMPEL">Submit Kartu Penuh (7 stempel)</option>
+              </select>
+            </div>
+
+            <div class="form-row two">
+              <div>
+                <label for="name">Nama</label>
+                <input id="name" name="name" type="text" placeholder="Nama lengkap" required />
+              </div>
+              <div>
+                <label for="whatsapp">WhatsApp</label>
+                <input id="whatsapp" name="whatsapp" type="tel" placeholder="08xxxxxxxxxx" required />
+              </div>
+            </div>
+
+            <div class="form-row two">
+              <div>
+                <label for="instagram">Instagram</label>
+                <input id="instagram" name="instagram" type="text" placeholder="@username" />
+              </div>
+              <div>
+                <label for="playerId">Player ID (opsional)</label>
+                <input id="playerId" name="playerId" type="text" placeholder="Contoh: PR-000123" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <label for="startHouse">Rumah pertama (untuk “Daftar”)</label>
+              <select id="startHouse" name="startHouse">
+                <option value="">— Pilih —</option>
+                <option value="Balong">Balong</option>
+                <option value="Wacana">Wacana</option>
+                <option value="Popondok">Popondok</option>
+                <option value="Kang Roti">Kang Roti</option>
+                <option value="Popotoan">Popotoan</option>
+                <option value="Restorasa">Restorasa</option>
+                <option value="Barbedek">Barbedek</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <label for="notes">Catatan (opsional)</label>
+              <textarea id="notes" name="notes" rows="3" placeholder="Contoh: rencana datang weekend, atau kendala yang ingin ditanyakan"></textarea>
+            </div>
+
+            <div class="form-row checkbox">
+              <input id="consent" name="consent" type="checkbox" required />
+              <label for="consent">Saya setuju data ini digunakan untuk keperluan campaign & pengumuman pemenang.</label>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit" id="submitBtn">Kirim ke Google Sheet</button>
+              <button class="btn btn-ghost" type="button" id="waBtn">Tanya via WhatsApp</button>
+            </div>
+
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+            <p class="muted small">
+              Catatan: jika Player ID kosong, sistem akan buat otomatis (untuk catatan admin). Kartu fisik tetap bukti utama stempel.
+            </p>
+          </form>
+
+          <aside class="card side-card">
+            <h3>Cek Progres (opsional)</h3>
+            <p class="muted">Fitur ini aktif kalau kamu juga mencatat stempel secara digital. Kalau belum, abaikan dulu.</p>
+
+            <div class="form-row">
+              <label for="checkId">Masukkan Player ID</label>
+              <input id="checkId" type="text" placeholder="PR-000123" />
+            </div>
+            <button class="btn btn-soft" id="checkBtn" type="button">Cek</button>
+
+            <div class="progress-box" id="progressBox">
+              <p class="muted small">Belum ada data. (Default: demo)</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <h3>Kontak Cepat</h3>
+            <p class="muted">Butuh jawaban cepat? Klik tombol di bawah.</p>
+            <a class="btn btn-soft w-full" href="#" id="quickWA">Buka WhatsApp</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark" aria-hidden="true">🧭</span>
+            <span class="brand-text">
+              <strong>Penjelajah Rasa</strong>
+              <span class="brand-sub">Panduan Resmi Campaign</span>
+            </span>
+          </div>
+          <p class="muted">
+            Halaman panduan ini dibuat untuk memudahkan peserta mengikuti perjalanan 7 rumah.
+            Informasi final mengikuti pengumuman panitia.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#cara-main">Cara Main</a>
+          <a href="#rumah">7 Rumah</a>
+          <a href="#kalender">Kalender</a>
+          <a href="#hadiah">Hadiah</a>
+          <a href="#faq">FAQ</a>
+          <a href="#daftar">Form</a>
+        </div>
+
+        <div class="footer-bottom">
+          <span class="muted small">© 2025 • Penjelajah Rasa</span>
+          <a class="muted small" href="#top">Kembali ke atas ↑</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
